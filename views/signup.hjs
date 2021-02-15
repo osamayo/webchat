@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="/stylesheets/style.css" rel="stylesheet" />
+  <style type="text/css">
+    section {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section id="main">
+      <div class="center-align">
+        <h1>Signup</h1>
+        <div id="signup_form">
+          <div class="input-container">
+            <label for="fname">*First Name</label>
+            <input type="text" tabindex="1" name="fname" placeholder="Your first name.." required>
+          </div>
+          <div class="input-container">
+            <label for="lname">*Last Name</label>
+            <input type="text" tabindex="2"  name="lname" placeholder="Your last name.." required>
+          </div>
+          <div class="input-container">
+            <label for="email">*Email</label>
+            <input type="email" tabindex="3" name="email" placeholder="Your email.." required>
+          </div>
+          <div class="input-container">
+            <label for="username">*Username</label>
+            <input type="text" tabindex="4" name="username" placeholder="Your username.." required>
+          </div>
+          <div class="input-container">
+            <label for="password">*Password</label>
+            <input type="password" tabindex="5" name="password" placeholder="Password.." required>
+          </div>
+          <div class="input-container">
+            <label for="vpassword">*Verify Password</label>
+            <input type="password" tabindex="6" name="vpassword" placeholder="Password again.." required>
+          </div>
+          
+          <div class="input-container">
+            <div class="container"><div class="loader"></div></div>
+            <button id="signup_btn" tabindex="7">Signup</button>
+          </div>
+
+          <div class="container"><div class="error"></div></div>
+          
+        </div>
+      </div>  
+    </section>
+  </main>
+
+  <script type="text/javascript" src="/javascripts/signup.js"></script>
+</body>
+</html>

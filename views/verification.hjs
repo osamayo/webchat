@@ -1,0 +1,6 @@
+
+<div class="center-align">
+	<h1>{{title}}</h1>
+	<h3>A verification link has been sent to your email account</h3>
+	<h3>Please click on the link sent to your email to continue the registration process</h3>
+</div>	

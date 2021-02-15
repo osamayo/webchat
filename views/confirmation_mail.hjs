@@ -1,0 +1,7 @@
+<div style="border: 3px solid #7b00ff;border-radius: 10px;padding: 40px;width: 70%;">
+	<div style="display: inline-block;margin: auto;text-align: center;width: 100%;">
+		<h1>Welcome To {{ title }}</h1>
+		<h3>In order to continue the registration process to {{ title }} please click on the following link.</h3>
+		<a style="background: #7b00ff;border: 0;font-weight: 600;font-size: 16px;letter-spacing: .5px;line-height: 20px;cursor: pointer;padding: 15px;height: auto;border-radius: 5px;color: white;" href="{{ link }}">Register To {{ title }}</a>
+	</div>	
+</div>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="/stylesheets/style.css" rel="stylesheet" />
+  <style type="text/css">
+    section {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section id="main">
+      <div class="center-align">
+        <h1>{{ title }}</h1>
+        <h3> {{ message }} </h3>
+        <a class="button" style="width: auto;padding: 10px 30px;" href="{{ link }}">{{ link_text }}</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

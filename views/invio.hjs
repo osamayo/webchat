@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/invio.css">
+
+  <style type="text/css">
+
+  </style>
+</head>
+<body>
+  <main>
+    <aside>
+      <header class="flex-row">
+        <img class="img-button circle profile-icon" src="/images/user.svg">
+        <div class="container dropdown-container">
+            <div class="search-box">
+              <img class="search-icon" src="images/search.svg" id="search_btn">
+              <div class="search" id="search" contenteditable="true"></div>
+              <img class="close-search-icon" src="images/close.svg">
+            </div>
+            <div class="list dropdown-list" id="search_list">
+                <div class="loader" id="search_loader"></div>
+            </div>
+        </div>
+        
+        <img class="img-button circle logout" src="/images/logout.svg">
+      </header>
+      <section id="contacts_list" class="list">
+      </section>
+    </aside>
+    <content>
+      <header class="flex-row">
+        <img src="/images/backward.svg" class="img-button circle backward" id="chat_backward_btn">
+        <img src="/images/user.svg" class="img-button circle">
+        <div class="list-item-content">
+              <h3 class="profile-name white" id="contactName"> </h3>
+              <h5 class="profile-username" id="contactUsername"></h5>
+        </div>
+      </header>
+      <section class="chat-section">
+          <div class="chat">
+          </div>
+
+          <footer class="send-box">
+            <div class="textbox textbox-message" contenteditable="true"></div>
+            <img class="img-button circle send-button" src="/images/send.svg"/>
+          </footer>
+      </section>
+    </content>
+  </main>
+
+  <script type="text/javascript" src="/javascripts/invio.js"></script>
+</body>
+</html>

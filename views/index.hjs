@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href="/stylesheets/style.css" rel="stylesheet" />
+	<style type="text/css">
+		section {
+      		color: white;
+    	}
+    	.link-button {background: white; font-weight: bold;  }
+	</style>
+</head>
+<body>
+	<main>
+		<section>
+			<div class="center-align">
+				<h1>Invio</h1>
+				<article>This is a simple chat website.</article>
+				<nav>
+					<ul>
+						<li><a class="link-button" href="/signup">Signup</a></li>
+						<li><a class="link-button" href="/login">Login</a></li>
+					</ul>
+				</nav>
+			</div>	
+		</section>
+	</main>
+</body>
+</html>
